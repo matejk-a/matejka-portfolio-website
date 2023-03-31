@@ -1,0 +1,51 @@
+html{
+  scroll-behavior: smooth;
+}
+
+.hero-text-container {
+  text-align: center;
+}
+
+.hero-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+.hero-text-container {
+  text-align: right;
+  margin-left: 200px;
+}
+
+.calcpositionn {
+  justify-content: flex-end;
+  margin-left: 200px;
+}
+}
+
+@media (min-width: 1024px) {
+  .calcposition {
+    width: 100%;
+  }
+
+  @media (min-width: 768px) {
+    .calcposition {
+      width: 50%;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .calcposition {
+      width: 58.33333%;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .calcposition {
+      width: 58.33333%;
+      margin-left: 200px;
+    }
+  }
+}
+
