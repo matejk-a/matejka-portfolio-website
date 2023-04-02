@@ -64,10 +64,6 @@ button:hover {
     transform: scale(1.1);
 }
 
-button#equal {
-    height: 130px;
-}
-
 .calc {
     background-color: #585858;
 }
@@ -86,12 +82,17 @@ button#equal {
     color: #000000;
 }
 
+.calc button.btn-decpoint {
+    background-color: #FF812A;
+    color: #000000;
+}
+
 .calc button.btn-operator {
     background-color: #FF812A;
     color: #000000;
   }
   
   .calc button.btn-equal {
-    background-color: #CECECE;
+    background-color: #FF812A;
     color: #000000;
   }
